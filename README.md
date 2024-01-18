@@ -11,4 +11,4 @@ Have you:
 
 # ADDITIONS:
 
-Created a music tab, that has an embed youtube video to a live dj set
+Created a music tab, that has an embeded youtube video to a live dj set
