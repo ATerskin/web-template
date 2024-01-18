@@ -2,6 +2,12 @@ version: "3"
 
 services:
   nodejs:
+    image: node-web-app
+    # build: .
+    # container_name: web-template
+    # restart: unless-stopped
+    # ports: 
+    #   - "80:80"
     # fill out the configuration here
     networks:
       - app-network
@@ -13,7 +19,7 @@ services:
     container_name: webserver
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "8080:80"
     volumes:
       - web-root:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
@@ -28,7 +34,7 @@ volumes:
     driver_opts:
       type: none
       # fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /Users/sasha/Desktop/UMDSTUFF/cmsc389T/web-template
       o: bind
 
 networks:
