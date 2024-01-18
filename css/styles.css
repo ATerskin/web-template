@@ -63,6 +63,15 @@ footer {
 
 }
 
+iframe {
+  
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #777;
+  display:block;
+}
+
 .leftFooter {
   color: #655560;
   font-size: 14px;
@@ -72,11 +81,18 @@ footer {
   font-size: 120%;
 }
 
-.rightFooter {
+.rightFooter1 {
   color: #655560;
   font-size: 120%;
   color: white;
+  /* padding-right: 5%; */
+}
 
+.rightFooter2 {
+  color: #655560;
+  font-size: 120%;
+  color: white;
+  /* padding-right: 5%; */
 }
 
 a:link {
@@ -96,13 +112,12 @@ a:active {
   background-color: transparent;
 }
 
-.rightFooterr {
+.rightFooter3 {
   color: #655560;
   font-size: 120%;
-  padding-right: 10%;
+  padding-right: 5%;
   color: white;
 }
-
 
 
 html {
@@ -248,7 +263,7 @@ h3 {
 
 /* Style all font awesome icons */
 .fa {
-  margin-left: 80%;
+  /* margin-left: 80%; */
   font-size: 80%;
   width: 50px;
   text-align: center;
