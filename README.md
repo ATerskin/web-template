@@ -2,9 +2,13 @@
 
 Have you:
 
-- [ ] added profile picture
-- [ ] intro/bio
-- [ ] talked about a project (3x)
-- [ ] github profile
-- [ ] linkedin profile (if you have one)
-- [ ] made at least one change to the website to personalize it
+- [X] added profile picture
+- [X] intro/bio
+- [X] talked about a project (3x)
+- [X] github profile
+- [X] linkedin profile (if you have one)
+- [X] made at least one change to the website to personalize it
+
+# ADDITIONS:
+
+Created a music tab, that has an embed youtube video to a live dj set
